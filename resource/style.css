@@ -1,0 +1,74 @@
+body {
+    font-size: 18px;
+    background-color: black;
+    
+}
+
+.wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo-box img {
+    width: 200px;
+}
+
+input {
+    width: 100px;
+    height: 25px;
+    border: #5e715a    1px solid;
+    background-color: black;
+    color: #5e715a;
+}
+
+input:focus {
+    outline: none;
+}
+
+#result {
+    resize: none;
+    width: 100px;
+    height: 25px;
+    border: #5e715a 3px solid;
+    background-color: black;
+    color: #5e715a;
+}
+
+#result:focus {
+    outline: none;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border: #5e715a    1px solid;
+    background-color: black;
+    color: #5e715a;
+}
+
+option {
+    background-color: black;
+}
+
+select:focus {
+    outline: none;
+}
+
+#result {
+    width: 600px;
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #5e715a;
+    border: #5e715a 1px solid;
+    color: white;
+    font-weight: 800;
+}
