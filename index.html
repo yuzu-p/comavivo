@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resource/style.css">
+</head>
+<body>
+    <div class="logo-box">
+        <img src="resource/logo.png" alt="">
+    </div>
+    <div class="wrapper">
+        <select id="option-one">
+            <option value="normal">보통</option>
+            <option value="strong">전투에 능한</option>
+            <option value="weak">전투에 약한</option>
+        </select>
+        <input type="text" id="characterone">
+        <select id="option-two">
+            <option value="normal">보통</option>
+            <option value="strong">전투에 능한</option>
+            <option value="weak">전투에 약한</option>
+        </select>
+        <input type="text" id="charactertwo">
+        <br>
+        <button onclick="throwdice()">승패가르기</button>
+    </div>
+    <div class="wrapper">
+        <textarea id="result" readonly></textarea>
+        <br>
+        <button onclick="copytext()">결과 복사하기</button>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+crossorigin="anonymous"></script>
+<script src="resource/script.js"></script>
+</html>
